@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../images/download\ \(1\).gif);
+    background-size: 120%;
+    background-position: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    
+}
+.ghibli{
+    width: 30%;
+    opacity: 90%;
+   
+}
+
+.totoro{
+    margin-left: 10rem;
+    margin-top:5rem;
+}
+.content{
+    margin-left: 9rem;
+    margin-top: 5rem;
+    
+}
+.title {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 3rem;
+    line-height: 1.5rem;
+    letter-spacing: 1pc; 
+    font-family: cursive;
+}
+.subtitle {
+    color: white;
+    font-size: 32px;
+    line-height: 0.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.description {
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.button {
+    background-color: #37662b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 200px;
+  position: relative;
+  justify-content: space-between;
+
+}

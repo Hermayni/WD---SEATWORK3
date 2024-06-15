@@ -1,0 +1,183 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../images/400a4cd11fd7e4449a7f80df046a9ca4.jpg);
+    background-size:100%;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+/*h1 {
+margin-left: 610px;
+margin-bottom: 10px;
+margin-top: 50px;
+}*/
+
+.header-logo{
+    height: 300px;
+    margin-top: 5rem;
+    margin-left: 740px;
+}
+
+.h1-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem; 
+    border-radius: 5px;
+    margin-left: 995px;
+}
+.h1-button a {
+    font-size: 15x;
+    text-decoration: none;
+    color: white;
+    background-color: #24482f;
+    padding: 20px 30px;
+}
+    
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.nav-links a span {
+    position: relative;
+    z-index: 1;
+}
+
+/* Header 1 */
+.header1 {
+   background-image: url(../images/685345d175ebbe511cda22eba65729be.jpg);
+   background-size: 100%;
+   background-position: top;
+    justify-content: space-between;
+    font-family: 'Merriweather', serif;
+}
+
+.totoro-logo{
+   height: 120px;
+   margin-left: 950px;
+}
+.header1 .nav-links a {
+    background-color: rgba(30, 100, 64, 0.593);
+}
+
+/* Header 2 */
+
+.calcifer-logo{
+    height: 120px;
+    margin-left: 940px;
+    
+}
+.header2 {
+    background-image: url(../images/howl\'s\ moving\ castle.jpg);
+    background-size: 100%;
+    background-position: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 40px;
+    font-family: 'Merriweather', serif;
+    
+}
+.header2 img {
+    margin-bottom: 25px;
+}
+.header2 .nav-links {
+    flex-direction: row;
+    align-items: flex-start;
+   margin-left: 840px;
+}
+.header2 .nav-links a {
+    background-color: rgba(131, 107, 84, 0.512);
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+/* Header 3 */
+.ponyo-logo{
+    height: 130px;
+}
+.header3 {
+   background-image: url(../images/Ponyo.jpg) ;
+   background-size: 100%;
+   background-position: center;
+    justify-content: space-around;
+    font-family: 'Merriweather', serif;
+}
+.header3 .nav-links a {
+    background-color: rgb(195, 113, 36);
+    border-radius: 25px;
+    padding: 10px 25px;
+    letter-spacing: 2px;
+}
+
+/* Header 4 */
+.header4 {
+    background: linear-gradient(to right, #43e97b, #38f9d7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.header4 img {
+    order: 2;
+    margin-top: 20px;
+}
+.header4 .nav-links {
+    flex-direction: row;
+    gap: 40px;
+}
+.header4 .nav-links a {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.header4 .nav-links a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #43e97b;
+}
+
+/* Header 5 */
+.header5 {
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.header5 .nav-links {
+    margin-left: auto;
+}
+.header5 .nav-links a {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.header5 .nav-links a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f857a6;
+}
